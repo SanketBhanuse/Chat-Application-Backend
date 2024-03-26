@@ -55,7 +55,7 @@ const server = app.listen(
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "https://bhanuse-chatapp.vercel.app/",
+    origin: "https://bhanuse-chatapp.vercel.app",
   },
 });
 
